@@ -15,8 +15,8 @@ int main() {
     cin >> x[i];
   }
 
-  int a,b,c;
-  int sum = 0;
+  int a = x[0], b = x[1], c = x[2];
+  int sum = a + b + c;
   for (int i = 0; i < n-2; i++) {
     if (x[i] + x[i+1] + x[i+2] > sum) {
       a = x[i];
